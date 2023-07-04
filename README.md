@@ -17,6 +17,7 @@ Kontur adalah blok bangunan dasar untuk visi komputer. Merekalah yang memungkink
 Ubah gambar menjadi gambar biner. Kita bisa menggunakan thresholding atau edge detection. Kami akan menggunakan detektor tepi Canny.Lalu Temukan kontur menggunakan fungsi cv2.findContours.Gambar kontur pada gambar menggunakan fungsi cv2.drawContours.     
 
 Langkah- langkah mendeteksi gambar menggunakan kontur :
+
 1.Menggunakan import cv,numpy as np dan matplotlib untuk membuat array numerik dalam pemprosesan gambar.pyplot untuk membuat visualiasi seperti gambar.             
 
 2.cv2.imread('topi.jpeg'): Fungsi ini digunakan untuk membaca gambar dari file dengan nama 'topi.jpeg' dan mengembalikan gambar dalam bentuk matriks dengan nilai piksel.
